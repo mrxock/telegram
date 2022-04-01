@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  display: swap;
+  src: 
+       url('../fonts/source-sans-pro-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/source-sans-pro-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  display: swap;
+  src: 
+       url('../fonts/source-sans-pro-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/source-sans-pro-v19-latin-600.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  display: swap;
+  src: 
+       url('../fonts/source-sans-pro-v19-latin-700.woff2') format('woff2'), 
+       url('../fonts/source-sans-pro-v19-latin-700.woff') format('woff'); 
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.header__inp{
+  padding: 7px 20px;
+  background: #F4F4F4;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+body{
+  font-family: "Source Sans Pro";
+}
+p{
+  margin: 0;
+}
+.user-img{
+  width: 50px;
+  height: 50px;
+}
+.hero__content_link{
+  border-left: 3px solid #66A7DB;
+  padding-left: 8px;
+}
